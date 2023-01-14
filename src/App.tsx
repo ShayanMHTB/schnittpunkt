@@ -19,6 +19,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <hr />
+      <div className='m-2 p-5 flex items-center justify-center'>
+        <h1 className='text-2xl bg-red-400 p-10 rounded-2xl text-gray-200 hover:text-black'>
+          Hello World! React + Tailwind
+        </h1>
+      </div>
     </div>
   );
 }

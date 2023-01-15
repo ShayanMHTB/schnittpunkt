@@ -6,8 +6,6 @@ import './index.scss';
 
 import Header from './components/Header';
 
-import App from './App';
-
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -15,8 +13,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Header />
-    {/* <App /> */}
+      <Header />
   </React.StrictMode>
 );
 

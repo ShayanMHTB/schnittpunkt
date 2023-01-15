@@ -1,1 +1,6 @@
-// Add background Image to App + an overlay
+.App {
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(75, 75, 75, 0.85),rgba(75, 75, 75, 0.85)), url("./assets/greg-trowman-jsuWg7IXx1k-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
